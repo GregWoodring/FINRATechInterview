@@ -1,0 +1,33 @@
+.product {
+
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 50%;
+    position: relative;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+
+
+    img {
+        opacity: 1;
+        margin: 2rem;
+        height: 215px;
+        
+    }
+
+    .product-info {
+        margin: 2rem;
+        opacity: 1;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        height: 80%;
+    }
+
+    .product-description {
+        width: 80%
+    }
+
+}
